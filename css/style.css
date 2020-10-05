@@ -36,8 +36,18 @@ h1{font-weight:bold}
     width:70%;
     border:1px solid #fff;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 99px #00ACEE;
-margin:auto ;
+    box-shadow: 0px 3px 99px #00ACEE;
+    margin:auto ;
+}
+.campaign_img {
+    width: 80vw;
+    transform: rotate(-4deg);
+}
+@media screen and (max-width: 480px) {
+    .campaign_img {
+        height: auto;
+        transform: rotate(0deg);
+    }
 }
 .content2_tit{
     width:100%;
